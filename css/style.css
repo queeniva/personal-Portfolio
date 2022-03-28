@@ -1,12 +1,35 @@
 #navbar{
     position: fixed;
-    align-items: center;
+    padding-left:75%;
+    padding-top: 20px;
 }
 #navbar a{
     text-decoration: none;
     font-size: 20px;
     color:pink;
+    padding-right:50px ;
 }
 #welcome-section{
     height: 100vh;
+    padding: 50px;
 }
+#projects{
+    display: flex;
+    justify-content: center;
+}
+
+.project-div{
+    border: 1px solid pink;
+    margin: 10px;
+    height: auto;
+    border-radius: 5px;
+    width: 40vw;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #welcome-section{
+        height: 100vh;
+    }
+  }
