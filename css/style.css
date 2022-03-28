@@ -1,0 +1,12 @@
+#navbar{
+    position: fixed;
+    align-items: center;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color:pink;
+}
+#welcome-section{
+    height: 100vh;
+}
